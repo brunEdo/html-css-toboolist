@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #F6F8F9;
 }
 
 /* header with logo */
@@ -38,7 +38,7 @@ h1 {
 /* buttons */
 .buttons {
     padding: 14px 50px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #F6F8F9;
 }
 
 button {
@@ -54,22 +54,24 @@ button {
 
 .disabled {
     background-color: #fff;
-    color: gray;
-    border: solid 1px gray;
+    color: #F6F8F9;
+    border: solid 1px #F6F8F9;
 }
 
 /* to do list */
 section {
-    padding: 35px 40px 0;
+    padding: 36px 40px 0;
+}
+section:last-of-type {
+    padding: 36px 40px 35px;
 }
 
 li {
     list-style-type: none;
+    line-height: 36px;
 }
 
-
 /* check and cross */
-
 .done, .todo {
     display: inline-block;
     height: 16px;
@@ -90,4 +92,38 @@ li {
 .todo {
     color: red;
     border: solid 1px red;
+}
+
+/* tag with colors */
+
+.tag {
+    border-radius: 12px;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px;
+    margin-left: 6px;
+}
+
+.light-blue {
+    background-color: #47ADF1;
+}
+
+.purple {
+    background-color: #9C72E4;
+}
+
+.green {
+    background-color: #64C0A9;
+}
+
+.yellow {
+    background-color: #F29E33;
+}
+
+.pink {
+    background-color: #D863A1;
+}
+
+.olive {
+    background-color: #B0C926;
 }
