@@ -57,3 +57,37 @@ button {
     color: gray;
     border: solid 1px gray;
 }
+
+/* to do list */
+section {
+    padding: 35px 40px 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* check and cross */
+
+.done, .todo {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    line-height: 16px;
+    vertical-align: center;
+    margin-right: 6px;
+}
+
+.done {
+    color: green;
+    border: solid 1px green;
+}
+
+.todo {
+    color: red;
+    border: solid 1px red;
+}
