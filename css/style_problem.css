@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-body {
+main {
     background-color: gray;
 }
 
@@ -39,21 +39,4 @@ h1 {
 .buttons {
     padding: 14px 50px;
     border-bottom: 1px solid gray;
-}
-
-button {
-    display: inline-block;
-    font-size: 12px;
-    padding: 6px 10px;
-    border-radius: 4px;
-
-    background-color: #47ADF1;
-    color: #fff;
-    border: none;
-}
-
-.disabled {
-    background-color: #fff;
-    color: gray;
-    border: solid 1px gray;
 }
