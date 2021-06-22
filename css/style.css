@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-main {
+body {
     background-color: gray;
 }
 
@@ -12,7 +12,7 @@ main {
 header {
     height: 70px;
     padding-left: 20px;
-    background-color: blue;
+    background-color: #fff;
 }
 
 .logo {
@@ -31,6 +31,6 @@ h1 {
 /* todo list container  */
 .container {
     max-width: 800px;
-    background-color: yellow;
+    background-color: #fff;
     margin: 40px auto 0;
 }
